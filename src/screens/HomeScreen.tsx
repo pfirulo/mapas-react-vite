@@ -1,7 +1,11 @@
+import { MapView } from "../components";
+
  
 
 export const HomeScreen = () => {
   return (
-    <div>HomeScreen</div>
+    <div>
+      <MapView />
+    </div>
   )
 }
